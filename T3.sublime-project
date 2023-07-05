@@ -1,0 +1,9 @@
+{
+    "folders": [
+        {
+            "name": "",
+            "path": ".",
+            "folder_exclude_patterns": ["venv", "__pycache__"]
+        }
+    ]
+}
