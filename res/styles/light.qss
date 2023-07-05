@@ -1,0 +1,37 @@
+QLabel {
+	font-family: 'Liberty Sans';
+	color: #000;
+}
+
+QPushButton {
+	background-image: none;	
+}
+
+QPushButton:flat {
+	background: none;
+	border: none;
+}
+
+QPushButton:flat:hover {
+	background-color: rgba(255, 255, 255, 50);
+}
+
+QPushButton:flat:pressed {
+	background-color: rgba(255, 255, 255, 100);
+}
+
+#window {
+	background: #fff;
+}
+
+#header {
+	background: #e78226;
+}
+
+#header QLabel {
+	font-size: 16pt;
+}
+
+#sidebar-shadow {
+	background-color: rgba(0, 0, 0, 50);
+}
