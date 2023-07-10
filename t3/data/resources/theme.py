@@ -3,8 +3,6 @@ import logging
 from PySide6.QtCore import QFile, QTextStream
 from PySide6.QtGui import QIcon
 
-from .resource import Resource
-
 
 class Theme:
     __instance = None
@@ -16,7 +14,7 @@ class Theme:
         return cls.__instance
 
     def __init__(self):
-        self.__resource = Resource("dist/themes/light.t3t")
+        self.__file = ""
         self.__cache = {}
 
     def apply_stylesheet(self, qt_object):

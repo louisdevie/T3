@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<typesystem package="t3ff">
-
-    <object-type name="Counter">
-        <property type="unsigned int" name="count" get="count"/>
-    </object-type>
-
-</typesystem>
